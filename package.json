@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "author": "matsjfunke",
   "scripts": {
+    "d": "pnpm i && pnpm dev",
     "build": "tsc",
     "dev": "tsx watch src/index.ts",
     "inspector": "pnpm dlx @modelcontextprotocol/inspector@latest",
